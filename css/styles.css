@@ -7,11 +7,10 @@ body {
 @media only screen and (min-width: 900px) {
 	ul {
 		box-sizing: border-box;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin: 0;
 		padding-top: 10px;
 		padding-left: 202px; 
-		text-transform: uppercase;
 		font-weight: bold;
 
 	}
@@ -27,7 +26,7 @@ body {
 		box-sizing: border-box;
 		color: black;
 		text-decoration: none;
-		letter-spacing: -2px;
+		letter-spacing: -1px;
 	}
 
 	header li:nth-child(3) a {
@@ -44,22 +43,103 @@ body {
 	}
 	section:nth-child(2) {
 		box-sizing: border-box;
-		border: 1px solid red;
+		border: 1px solid #cecece;
 		width: 96%;
-		margin: 14px auto 0 auto;
-		height: 377px;
+		margin: 15px auto 0 auto;
 		background-image: url('../img/banner.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 378px;
 	}
-	section p {
+	section:nth-child(2) p {
 		font-size: 2.5em;
 		box-sizing: border-box;
 		padding: 0;
 		color: white;
-		padding-top: 12px;
+		padding-top: 11px;
 		padding-left: 175px;
 		letter-spacing: -1px;
 		line-height: 47px;
 		font-weight: bold;
+	}
+	section:nth-child(3) {
+		box-sizing: border-box;
+		padding: 0;
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 19px 0px;
+		width: 70%;
+		margin: 17px auto 0 auto;
+		text-align: center;
+	}
+	section:nth-child(3) article{
+		background-color:  #cecece;
+		font-family: Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0;
+		width: 94%;
+		margin: 0px auto 0 auto;
+		text-align: center;
+		padding-bottom: 21px;
+	}
+	section:nth-child(3) article:first-child {
+		background-color: #39c2d7;
+	}
+	article > img {
+		margin: 0;
+		padding: 0;
+		margin-top: 8px;
+		width: 94%;
+	}
+
+	article p:nth-child(2){
+		font-size: 1em;
+		letter-spacing: 0px;
+		text-align: left;
+		margin: 0px auto 0 auto;
+		padding: 0;
+		padding-top: 7px;
+		padding-left: 6px;
+		padding-bottom: 5px;
+		width: 94%;
+		font-weight: bold;
+	}
+	article p:nth-child(3) {
+		font-size: 0.9em;
+		padding-left: 6px;
+		letter-spacing: 0px;
+		text-align: left;
+		margin: 0px auto 0 auto;
+		width: 94%;
+	}
+	footer {
+		box-sizing: border-box;
+		background-color: #39c2d7;
+		color: white;
+		text-transform: none;
+		font-size: .8em;
+		width: 96%;
+		margin: 20px auto 0 auto;
+		padding: 0;
+		letter-spacing: -1px;
+	}
+	footer *{
+		
+		padding: 0;
+		margin: 0;
+	}
+	footer > ul{
+		padding-top: 18px;
+		padding-bottom: 19px;
+		padding-left: 176px;
+	}
+	footer li {
+		padding-right: 0;
+		margin-right: 14px;
+	}
+	footer li:nth-child(2n+1){
+		text-decoration: underline;
 	}
 }
 
