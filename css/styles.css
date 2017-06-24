@@ -28,7 +28,7 @@
 		letter-spacing: -1px;
 	}
 
-	header li:nth-child(3) a {
+	header li a:hover {
 		box-sizing: border-box;
 		color:  #39c2d7;
 	}
@@ -85,7 +85,7 @@
 		text-align: center;
 		padding-bottom: 21px;
 	}
-	section:nth-child(3) article:first-child {
+	section:nth-child(3) article:hover {
 		background-color: #39c2d7;
 	}
 	article > img {
@@ -189,7 +189,7 @@
 		letter-spacing: -1px;
 	}
 
-	header li:nth-child(2) a {
+	header li a:hover {
 		color:  #39c2d7;
 	}
 	section:nth-child(2) {
@@ -236,7 +236,7 @@
 		text-align: center;
 		padding-bottom: 20px;
 	}
-	section:nth-child(3) article:nth-child(3) {
+	section:nth-child(3) article:hover {
 		background-color: #39c2d7;
 	}
 	article > img {
